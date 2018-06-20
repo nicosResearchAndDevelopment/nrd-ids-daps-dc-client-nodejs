@@ -1,6 +1,6 @@
 # nrd-ids-daps-dc-client-nodejs
 
-### A sample implentation of a DAPS (Dynamic Attributes Provision Service) done by node.js and presented by nicos Research & Development.
+### A sample implentation of a DAPS (Dynamic Attributes Provision Service) client done by node.js and presented by nicos Research & Development.
 
 The single file source code can be found [here](https://github.com/nicosResearchAndDevelopment/nrd-ids-daps-dc-client-nodejs/blob/master/src/nRD_daps_dc_client.js).
 
