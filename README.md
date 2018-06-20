@@ -13,7 +13,7 @@ What it does (so far):
 
 But at first you have to
 
-### install node.js
+## Install node.js
 
 Hopefully you'll get it from [here](https://nodejs.org/en/)!
 
@@ -43,7 +43,7 @@ node
 Leave it CTRL+C (two times)
 
 
-### bring up nRD_daps_dc_client
+## Bring up nRD_daps_dc_client
 
 Make directory 'nRD_daps_dc_client'
 
@@ -67,7 +67,7 @@ mkdir config
 ...and bring in 'nRD_daps_dc_client.js', config (repository/config/daps_dc_client_config.js) and YOUR connector certs in the correct place (./cert), as seen in this repository.
 
 
-### install node packages
+## Install node packages
 
 - ["jsonwebtoken", by 'npm'](https://www.npmjs.com/package/jsonwebtoken)
 - ["request", by 'npm'](https://www.npmjs.com/package/request)
@@ -87,7 +87,7 @@ $ npm install request -g
 ...please read the books!
 
 
-## modify your config file
+## Modify your config file
 
 Please edit
 
@@ -98,7 +98,7 @@ Please edit
 ...by following the TODOs, like bring up IDS-Identifier (idsid, IDS-Key) or tweak the pathes to your certificate.
 
 
-## start the application
+## Start the application
 
 ```
 itsme/nRD_daps_dc_client$: node nRD_daps_dc_client.js
