@@ -64,7 +64,7 @@ mkdir cert
 mkdir config
 ```
 
-...and bring in 'nRD_daps_dc_client.js', config (repository/config/daps_dc_client_config.js) and YOUR connector certs in the correct place (./cert), as seen in this repository.
+...and bring in 'nRD_daps_dc_client.js', its configuration ('repository/config/daps_dc_client_config.js') and YOUR connector certs in the correct place (./cert), as seen in this repository.
 
 
 ## Install node packages
@@ -77,7 +77,7 @@ $ npm install jsonwebtoken
 $ npm install request
 ```
 
-IMPORTANT: if you like to make those packeges global
+IMPORTANT: if you like to make those packages global
 
 ```
 $ npm install jsonwebtoken -g
@@ -105,17 +105,6 @@ itsme/nRD_daps_dc_client$: node nRD_daps_dc_client.js
 ```
 
 ...and have fun with it's result.
-
-
-## See also
-
-### nrd-ids-daps-dc-client-soapui
-
-(will be come soon)
-
-### nrd-ids-daps-dc-client-postman
-
-(will be come soon)
 
 
 ## Please follow
