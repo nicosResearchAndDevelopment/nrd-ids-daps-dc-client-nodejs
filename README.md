@@ -1,8 +1,10 @@
 # nrd-ids-daps-dc-client-nodejs
 
-### A sample implentation of a DAPS (Dynamic Attributes Provision Service) client done by node.js and presented by nicos Research & Development.
+### A sample implementation of a DAPS (Dynamic Attributes Provision
+ Service) client done by node.js and presented by nicos Research & Development.
 
-The single file source code can be found [here](https://github.com/nicosResearchAndDevelopment/nrd-ids-daps-dc-client-nodejs/blob/master/src/nRD_daps_dc_client.js).
+The single file source code can be
+ found [here](https://github.com/nicosResearchAndDevelopment/nrd-ids-daps-dc-client-nodejs/blob/master/src/nRD_daps_dc_client.js).
 
 What it does (so far):
 - it will show as simple as possible and how to
@@ -10,6 +12,23 @@ What it does (so far):
 - sign it with your certificate, make a request to [daps-dc.nicos-ag.com](https://daps-dc.nicos-ag.com:8081/about), (please read Repository [nrd-ids-daps-dc](https://github.com/nicosResearchAndDevelopment/nrd-ids-daps-dc))
 - gets your very, very special SecurityProfile (also as an JWT), done by some certification body...
 - response can be decoded (see: jsonwebtoken.decode() ) or - much better ;-) - verified (see: jsonwebtoken.verify() ) by daps-ds's public certificate so you have to fetch also (see: Certificate.request(...)) .
+
+## What is different to the version shown before?
+
+### 'pem' vs. TLS public key
+
+Token given by DAPS is now verified by DAPS's public key, served by DAPS itself on route './pem'. So, the class 'Certifikate' went away... (the old version gets the public key from DAPS TLS-portion, now it's history!)
+
+### 'dummy' is in the house
+
+So, out of the box you are equipped with a special certifiate, the dummy.
+This allows you to send requests without any additional tweaks - and you will get a response immediatly! Also the DAPS-token given in response will be DECODED, so you will see a user-friendly output in your console and it shows a littel piece of JSON, reflecting dummy's IDS-securityProfile!
+
+BUT: it's expired!
+
+You can check it out by verifing it - see inline docs of `nRD_daps_dc_client.js`.
+
+---
 
 But at first you have to
 
@@ -95,7 +114,23 @@ Please edit
 ./config/daps_dc_client_config.js
 ```
 
-...by following the TODOs, like bring up IDS-Identifier (idsid, IDS-Key) or tweak the pathes to your certificate.
+...by following the TODOs, like bringing up the IDS-universal unique identifier (idsuuid) or tweak the pathes to your certificates.
+
+Maybe you have to tweak some proxy-stuff, so go to
+
+```
+'use_proxy':      false
+```
+
+...turn it on, and put in the right coordinates.
+
+Maybe this is not enough freedom to come out, please look for (here: `nRD_daps_dc_client.js`)
+
+```
+proxy = ((config.use_proxy) ? `${config.proxy_schema}://${config.proxy_user}:${config.proxy_password}@${config.proxy_host}:${config.proxy_port}` : undefined)
+```
+
+...and fill in the `proxy`-thingy by your own!
 
 
 ## Start the application
