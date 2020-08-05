@@ -18,8 +18,8 @@ module.exports = async ({
         // client stuff and it has a lot off code you maybe seen before in the version <= 0.1.8
         try {
 
-            //REM: keep this runnin'... otherwise unsecure certificates (like this comming from daps-dc) are not allowed :-(
-            //REM: try it by making this line a comment...
+            // REM: keep this runnin'... otherwise unsecure certificates (like this comming from daps-dc) are not allowed :-(
+            // REM: try it by making this line a comment...
             process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
             const
@@ -87,7 +87,7 @@ module.exports = async ({
                             } catch (exception) {
                                 reject(exception);
                             }
-                        }); // return new Promise
+                        }); // rnP
                     } // request_
 
                     class DAPS_pem {
