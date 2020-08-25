@@ -1,0 +1,101 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 18 (0x12)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=DE, O=nicos AG, OU=IDS-DC, CN=IDS-DC-Connectors
+        Validity
+            Not Before: Nov  8 12:34:54 2018 GMT
+            Not After : Nov  7 12:34:54 2020 GMT
+        Subject: C=DE, O=nicos AG, OU=ISST, CN=https://www.isst.fraunhofer.de/IDS/Connectors/echo_service
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ed:5a:df:4b:23:b4:df:81:4a:b8:55:cd:57:e2:
+                    6f:b9:ff:8f:4e:ea:09:51:8c:c3:cf:84:6e:f1:f5:
+                    36:57:4c:d1:5d:7a:17:17:20:07:b4:20:69:15:9b:
+                    42:68:94:a4:14:29:e1:91:38:71:9b:cf:33:7a:80:
+                    5f:fa:76:35:78:99:41:7e:9b:8b:b7:9c:64:bb:4d:
+                    2d:8f:70:d2:cf:b4:2e:89:03:0b:ab:22:47:4b:47:
+                    93:ab:ac:b7:5d:64:dc:de:6f:27:a7:c1:89:41:1c:
+                    3d:79:b4:ad:bc:26:56:0d:f0:42:86:46:81:ba:3c:
+                    f4:a5:54:1b:05:b6:ff:4c:2b:98:6d:da:76:15:09:
+                    2d:ab:eb:e3:af:d7:64:61:c5:5f:2b:b5:a3:ce:f0:
+                    01:eb:b5:3a:75:56:dd:5e:9e:eb:b0:d2:f5:0e:94:
+                    36:e6:0a:68:6a:86:18:2e:43:3f:77:8f:41:f7:1f:
+                    83:e2:d4:75:37:5f:49:e9:67:a6:40:dc:ac:12:2c:
+                    93:36:3f:aa:69:37:18:c2:61:eb:58:14:c0:f8:ba:
+                    47:a3:89:cc:02:06:5c:73:24:e3:20:10:63:59:56:
+                    90:de:cb:50:d2:fc:85:1d:79:5e:cb:5f:22:48:26:
+                    de:a0:b7:ce:a9:16:96:3a:54:a6:ec:54:33:3a:b7:
+                    fa:45
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                69:9D:0E:79:3A:03:0D:2E:92:4D:96:F0:20:92:F3:FB:53:D9:DC:F2
+            X509v3 Authority Key Identifier: 
+                keyid:3B:9B:8E:72:A4:54:05:5A:10:48:E7:C0:33:0B:87:02:BC:57:7C:A4
+
+            Authority Information Access: 
+                CA Issuers - URI:http://www.internationaldataspaces.org/dc/Connectors/ids-dc-connector-ca.cer
+                OCSP - URI:http://ocsp-dc.internationaldataspaces.org
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.internationaldataspaces.org/dc/Connectors/ids-dc-connector-ca.crl
+
+            X509v3 Subject Alternative Name: 
+                URI:https://www.isst.fraunhofer.de/IDS/Connectors/echo_service
+    Signature Algorithm: sha1WithRSAEncryption
+         3a:23:3b:62:26:7c:99:2d:6f:c8:0c:ef:fd:b6:b5:d1:89:c7:
+         c9:01:a4:0d:d7:34:ed:ac:64:c4:4d:2e:a0:d0:c5:76:72:ba:
+         4f:8f:6b:73:f1:e9:b9:0d:02:68:8f:ee:3d:45:8e:f6:c7:c3:
+         c1:e5:43:b7:85:5a:0f:6b:17:c1:be:dd:78:93:fe:d2:b8:98:
+         67:1e:0f:87:00:4e:fd:50:d9:fe:d9:18:ec:13:fb:4f:ef:f8:
+         12:01:63:1c:0c:d0:d0:c9:90:5d:83:94:4f:f3:01:cf:e3:05:
+         a3:9b:87:22:d7:82:63:22:5a:53:55:a4:0a:3a:cd:17:39:e7:
+         bb:36:eb:9f:4d:f2:f0:dc:fe:14:9b:4f:86:b4:e9:e2:5f:e6:
+         92:d3:9c:32:ab:89:2f:74:b0:49:9f:00:2e:fe:e9:77:0c:96:
+         86:d8:07:d8:d6:8f:b7:5c:9e:91:72:20:cd:77:36:9f:8f:9a:
+         24:7b:74:62:d1:48:8a:96:10:97:4e:73:ef:c1:b4:66:96:df:
+         a5:a5:33:b6:4e:4a:a6:63:52:82:6d:8b:34:2b:74:99:60:8d:
+         47:c0:dd:a9:14:89:41:f2:96:f8:32:bc:d5:ac:40:7c:b0:63:
+         b9:24:50:e6:aa:6c:3b:30:26:e2:94:a9:d3:15:30:fe:d1:76:
+         c7:a4:2d:35
+-----BEGIN CERTIFICATE-----
+MIIFBzCCA++gAwIBAgIBEjANBgkqhkiG9w0BAQUFADBNMQswCQYDVQQGEwJERTER
+MA8GA1UECgwIbmljb3MgQUcxDzANBgNVBAsMBklEUy1EQzEaMBgGA1UEAwwRSURT
+LURDLUNvbm5lY3RvcnMwHhcNMTgxMTA4MTIzNDU0WhcNMjAxMTA3MTIzNDU0WjB0
+MQswCQYDVQQGEwJERTERMA8GA1UECgwIbmljb3MgQUcxDTALBgNVBAsMBElTU1Qx
+QzBBBgNVBAMMOmh0dHBzOi8vd3d3Lmlzc3QuZnJhdW5ob2Zlci5kZS9JRFMvQ29u
+bmVjdG9ycy9lY2hvX3NlcnZpY2UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDtWt9LI7TfgUq4Vc1X4m+5/49O6glRjMPPhG7x9TZXTNFdehcXIAe0IGkV
+m0JolKQUKeGROHGbzzN6gF/6djV4mUF+m4u3nGS7TS2PcNLPtC6JAwurIkdLR5Or
+rLddZNzebyenwYlBHD15tK28JlYN8EKGRoG6PPSlVBsFtv9MK5ht2nYVCS2r6+Ov
+12RhxV8rtaPO8AHrtTp1Vt1enuuw0vUOlDbmCmhqhhguQz93j0H3H4Pi1HU3X0np
+Z6ZA3KwSLJM2P6ppNxjCYetYFMD4ukejicwCBlxzJOMgEGNZVpDey1DS/IUdeV7L
+XyJIJt6gt86pFpY6VKbsVDM6t/pFAgMBAAGjggHJMIIBxTAOBgNVHQ8BAf8EBAMC
+BaAwCQYDVR0TBAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHQYD
+VR0OBBYEFGmdDnk6Aw0ukk2W8CCS8/tT2dzyMB8GA1UdIwQYMBaAFDubjnKkVAVa
+EEjnwDMLhwK8V3ykMIGiBggrBgEFBQcBAQSBlTCBkjBYBggrBgEFBQcwAoZMaHR0
+cDovL3d3dy5pbnRlcm5hdGlvbmFsZGF0YXNwYWNlcy5vcmcvZGMvQ29ubmVjdG9y
+cy9pZHMtZGMtY29ubmVjdG9yLWNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29j
+c3AtZGMuaW50ZXJuYXRpb25hbGRhdGFzcGFjZXMub3JnMF0GA1UdHwRWMFQwUqBQ
+oE6GTGh0dHA6Ly93d3cuaW50ZXJuYXRpb25hbGRhdGFzcGFjZXMub3JnL2RjL0Nv
+bm5lY3RvcnMvaWRzLWRjLWNvbm5lY3Rvci1jYS5jcmwwRQYDVR0RBD4wPIY6aHR0
+cHM6Ly93d3cuaXNzdC5mcmF1bmhvZmVyLmRlL0lEUy9Db25uZWN0b3JzL2VjaG9f
+c2VydmljZTANBgkqhkiG9w0BAQUFAAOCAQEAOiM7YiZ8mS1vyAzv/ba10YnHyQGk
+Ddc07axkxE0uoNDFdnK6T49rc/HpuQ0CaI/uPUWO9sfDweVDt4VaD2sXwb7deJP+
+0riYZx4PhwBO/VDZ/tkY7BP7T+/4EgFjHAzQ0MmQXYOUT/MBz+MFo5uHIteCYyJa
+U1WkCjrNFznnuzbrn03y8Nz+FJtPhrTp4l/mktOcMquJL3SwSZ8ALv7pdwyWhtgH
+2NaPt1yekXIgzXc2n4+aJHt0YtFIipYQl05z78G0ZpbfpaUztk5KpmNSgm2LNCt0
+mWCNR8DdqRSJQfKW+DK81axAfLBjuSRQ5qpsOzAm4pSp0xUw/tF2x6QtNQ==
+-----END CERTIFICATE-----
